@@ -324,7 +324,7 @@ input{
     width: 80%;
     height: 44px;
     border: none;
-    border-radius: 12px, 0px, 12px, 0px;
+    
 
 }
 #btn{
@@ -333,9 +333,16 @@ input{
     background-color: var(--primary);
     color: white;
     height: 44px;
-    border-radius: 12px, 0px, 12px, 0px;
+    
 }
 footer{
     width: 100%;
     height: 300px;
+}
+.flex-end{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
